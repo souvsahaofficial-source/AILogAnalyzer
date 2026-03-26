@@ -7,7 +7,7 @@ def get_llm():
         repo_id=MODEL_REPO,
         task="text-generation",
         max_new_tokens=512,
-        temperature=0.2,
+        temperature=0,
         huggingfacehub_api_token=HF_TOKEN,
         do_sample=False,
     )
